@@ -12,7 +12,7 @@ public class Test {
             System.out.println(s);
         }
         System.out.println();
-        // Вставки по id
+
         Student temp;
         for (int i = 1; i < students.length; i++) {
             Student current = students[i];
@@ -26,14 +26,14 @@ public class Test {
             System.out.println(s);
         }
 
-        // Быстрая по GPA
+
         System.out.println();
         qSort(students, students.length-1, 0);
         for (Student s : students) {
             System.out.println(s);
         }
 
-        // merge sort
+        
         System.out.println();
         Student[] students2 = new Student[]{
                 new Student(35, 412),
